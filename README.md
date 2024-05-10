@@ -12,8 +12,10 @@ Download `timepick.js` and `timepick.css` (or download the minified files) files
 
 After that, instantiate the timepicker(s) in the following way:
 ```html
+<input type="text" id="time_pick_id" />
+
 <script>
-const time_pick_1 = new TimePick('<field_id>', {
+const time_pick_1 = new TimePick('time_pick_id', {
 	theme: 'default', // See the available themes below
 	hours: 'Hours', // Change the value in your lanugage
 	minutes: 'Minutes' // Change the value in your lanugage
