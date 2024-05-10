@@ -25,6 +25,12 @@ const time_pick_1 = new TimePick('time_pick_id', {
 </script>
 ```
 
+You can also use TimePick directly from CDN without downloading:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/drangovski/timepick@main/timepick.min.css">
+<script src="https://cdn.jsdelivr.net/gh/drangovski/timepick@main/timepick.min.js"></script>
+```
+
 ## Themes
 Currently there are a few themes available, but feel free to customize them as you prefer. Also, if you come up with some awesome theme combination, don't hesitate to contribute to this repo. Themes are as it follows:
 
