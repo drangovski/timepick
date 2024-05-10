@@ -14,7 +14,7 @@ After that, instantiate the timepicker(s) in the following way:
 ```html
 <script>
 const time_pick_1 = new TimePick('<field_id>', {
-	theme: 'default', // See the available themes below. You can customize or add new themes in css
+	theme: 'default', // See the available themes below
 	hours: 'Hours', // Change the value in your lanugage
 	minutes: 'Minutes' // Change the value in your lanugage
 });
