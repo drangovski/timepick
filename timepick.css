@@ -1,0 +1,188 @@
+/*
+* TimePick v1.0
+* https://github.com/drangovski/timepick
+*/
+
+/*
+    General
+----------------------------------- */
+.timepick {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    box-shadow: 0px 8px 18px -5px rgba(96, 96, 96, 0.2);
+}
+.timepick .grid-label {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+}
+.timepick .hours {
+    width: 100%;
+}
+.timepick .hours .hours-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+}
+.timepick .hours .hours-container .hour {
+    text-align: center;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+.timepick .minutes {
+    width: 100%;
+}
+.timepick .minutes .minutes-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+}
+.timepick .minutes .minutes-container .minute {
+    text-align: center;
+    font-size: 13px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
+}
+
+/*
+    Themes
+----------------------------------- */
+/* default */
+.timepick.default {
+    background-color: #ededed;
+    color: #000;
+}
+.timepick.default .hours .hours-container .hour {
+    background-color: #d0d0d0;
+}
+.timepick.default .hours .hours-container .hour:hover {
+    background-color: #a2a2a2;
+}
+.timepick.default .minutes .minutes-container .minute {
+    background-color: #d0d0d0;
+}
+.timepick.default .minutes .minutes-container .minute:hover {
+    background-color: #a2a2a2;
+}
+/* green */
+.timepick.green {
+    background-color: #daf1ed;
+    color: #247e6c;
+}
+.timepick.green .hours .hours-container .hour {
+    background-color: #a2dbd1;
+}
+.timepick.green .hours .hours-container .hour:hover {
+    background-color: #7dbeb2;
+}
+.timepick.green .minutes .minutes-container .minute {
+    background-color: #a2dbd1;
+}
+.timepick.green .minutes .minutes-container .minute:hover {
+    background-color: #7dbeb2;
+}
+/* red */
+.timepick.red {
+    background-color: #fbe1e6;
+    color: #c43c27;
+}
+.timepick.red .hours .hours-container .hour {
+    background-color: #f0c3cc;
+}
+.timepick.red .hours .hours-container .hour:hover {
+    background-color: #f4a0b1;
+}
+.timepick.red .minutes .minutes-container .minute {
+    background-color: #f0c3cc;
+}
+.timepick.red .minutes .minutes-container .minute:hover {
+    background-color: #f4a0b1;
+}
+/* blue */
+.timepick.blue {
+    background-color: #deefff;
+    color: #2769a8;
+}
+.timepick.blue .hours .hours-container .hour {
+    background-color: #a9cbec;
+}
+.timepick.blue .hours .hours-container .hour:hover {
+    background-color: #83add6;
+}
+.timepick.blue .minutes .minutes-container .minute {
+    background-color: #a9cbec;
+}
+.timepick.blue .minutes .minutes-container .minute:hover {
+    background-color: #83add6;
+}
+/* yellow */
+.timepick.yellow {
+    background-color: #ffeeda;
+    color: #ba6e11;
+}
+.timepick.yellow .hours .hours-container .hour {
+    background-color: #ffd099;
+}
+.timepick.yellow .hours .hours-container .hour:hover {
+    background-color: #e9b57a;
+}
+.timepick.yellow .minutes .minutes-container .minute {
+    background-color: #ffd099;
+}
+.timepick.yellow .minutes .minutes-container .minute:hover {
+    background-color: #e9b57a;
+}
+/* dark */
+.timepick.dark {
+    background-color: #30373e;
+    color: #ccd6df;
+}
+.timepick.dark .hours .hours-container .hour {
+    background-color: #51575e;
+}
+.timepick.dark .hours .hours-container .hour:hover {
+    background-color: #13171c;
+}
+.timepick.dark .minutes .minutes-container .minute {
+    background-color: #51575e;
+}
+.timepick.dark .minutes .minutes-container .minute:hover {
+    background-color: #13171c;
+}
+/* light */
+.timepick.light {
+    background-color: #fbfbfb;
+    color: #4f5359;
+    border: 1px solid #d9dde4;
+}
+.timepick.light .hours .hours-container .hour {
+    background-color: #dee4ec;
+}
+.timepick.light .hours .hours-container .hour:hover {
+    background-color: #c1c7ce;
+}
+.timepick.light .minutes .minutes-container .minute {
+    background-color: #dee4ec;
+}
+.timepick.light .minutes .minutes-container .minute:hover {
+    background-color: #c1c7ce;
+}
