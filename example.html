@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./timepick.css">
+</head>
+<body>
+	<div style="padding: 50px;">
+		<input type="text" id="time_pick_id" />
+	</div>
+</body>
+
+<script src="./timepick.js"></script>
+<script>
+	const time_pick_1 = new TimePick('time_pick_id', {
+		theme: 'red', // See the available themes below
+		hours: 'Hours', // Change the value in your lanugage
+		minutes: 'Minutes' // Change the value in your lanugage
+	});
+</script>
+</html>
