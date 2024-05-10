@@ -2,7 +2,7 @@
 
 A lightweight time picker. Numerous 'lightweight' timepickers exist, but many of them are overly complicated for the purpose of a lightweight timepicker and can sometimes lead to frustrating errors when multiple timepickers are placed on a single page. This is another lightweight and customizable timepicker (but less annoying one :)), offering a few themes and the possibility to modify existing ones based on your preferences.
 
-![image](https://github.com/drangovski/timepick/assets/13369413/60e9c44d-3dfb-4beb-9a3f-2514ae9d5f49)
+![image](https://github.com/drangovski/timepick/assets/13369413/5a0ccc21-97e2-4375-b8c2-e94e9dcfa03b)
 
 
 ## How to use it?
