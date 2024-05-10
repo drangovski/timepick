@@ -1,4 +1,4 @@
-![image](https://github.com/drangovski/timepick/assets/13369413/1a41a908-e939-4010-bdbf-2ea0225a2bb9)# TimePick
+# TimePick
 
 A lightweight time picker. Numerous 'lightweight' timepickers exist, but many of them are overly complicated for the purpose of a lightweight timepicker and can sometimes lead to frustrating errors when multiple timepickers are placed on a single page. This is another lightweight and customizable timepicker (but less annoying one :)), offering a few themes and the possibility to modify existing ones based on your preferences.
 
